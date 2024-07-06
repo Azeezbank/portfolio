@@ -90,6 +90,7 @@ h3 {
   display: grid;
   grid-template-columns: 15% 85%;
   margin-top: 40px;
+  font-size: small;
 }
 .link {
   display: grid;
@@ -112,6 +113,7 @@ h3 {
   margin: 20px 0px;
   border-top: 0.5px solid purple;
   padding: 20px 0px;
+  font-size: small;
 }
 .one {
   grid-row: 1 / span 2;

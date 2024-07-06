@@ -109,9 +109,9 @@ h3 {
   display: grid;
   grid-template-columns: 15% 41% 41%;
   gap: 10px;
-  margin-top: 20px;
+  margin: 20px 0px;
   border-top: 0.5px solid purple;
-  padding-top: 20px;
+  padding: 20px 0px;
 }
 .one {
   grid-row: 1 / span 2;
@@ -158,10 +158,12 @@ h3 {
   .veiw a {
     font-size: smaller;
   }
+  .veiw {padding: 0 2px;}
   .follo a {
     font-size: smaller;
     padding-bottom: 0px;
   }
+  .follo {padding: 10px 2px;}
   .about {
     font-size: small;
   }

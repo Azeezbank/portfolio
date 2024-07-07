@@ -171,7 +171,7 @@ h3 {
   }
   .experience {
     display: grid;
-    grid-template-columns: 30% 35% 35%;
+    grid-template-columns: 30% 70%;
   }
   .link {font-size: smaller;
     }

@@ -161,7 +161,7 @@ h3 {
   .img2 {
     width: 60px;
   }
-  .name {
+  .name h2, p {
     font-size: small;
   }
   .veiw a {

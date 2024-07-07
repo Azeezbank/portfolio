@@ -173,6 +173,9 @@ h3 {
     display: grid;
     grid-template-columns: 30% 70%;
   }
+  .about {
+    display: grid; grid-template-columns: 25% 75%
+  }
   .one {grid-column: 1 / span 2 / span 3 / span 4; grid-row: 1;}
   .two {grid-column: 2; grid-row: 1}
   .three {grid-column: 2; grid-row: 2}

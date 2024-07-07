@@ -103,8 +103,11 @@ h3 {
 }
 .link h4 a {
   padding-right: 8px;
-  font-size: small;
+  font-size: 8px;
   color: rgba(113, 22, 197, 0.9);
+}
+.link h5 {
+  font-size: 10px;
 }
 .experience {
   display: grid;
@@ -113,7 +116,7 @@ h3 {
   margin: 20px 0px;
   border-top: 0.5px solid purple;
   padding: 20px 0px;
-  font-size: small;
+  font-size: 8px;
 }
 .one {
   grid-row: 1 / span 2;

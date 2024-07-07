@@ -127,7 +127,8 @@ h3 {
   background-color: rgba(113, 22, 197, 0.1);
   border-radius: 5px;
   box-shadow: 0 0 5px;
-  padding-left: 3px
+  padding-left: 3px;
+  padding-top: 5px;
 }
 .three {
   border: 0.5px solid purple;
@@ -135,6 +136,7 @@ h3 {
   border-radius: 5px;
   box-shadow: 0 0 5px;
   padding-left: 3px;
+  padding-top: 5px;
 }
 .four {
   grid-row: 2;
@@ -144,6 +146,7 @@ h3 {
   border-radius: 5px;
   box-shadow: 0 0 5px;
   padding-left: 3px;
+  padding-top: 5px;
 }
 .five {
   grid-row: 2;
@@ -153,6 +156,7 @@ h3 {
   border-radius: 5px;
   box-shadow: 0 0 5px;
   padding-left: 3px;
+  padding-top: 5px;
 }
 @media (max-width: 800px) {
   .img1 {

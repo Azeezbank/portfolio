@@ -178,6 +178,8 @@ h3 {
   .three {grid-column: 2; grid-row: 2}
   .four {grid-column: 2; grid-row: 3}
   .five {grid-column: 2; grid-row: 4}
+  .link {margin-left: 25%}
   .link h4 a {font-size: 8px;
     }
+  .link h5 {font-size: 10px}
 }

@@ -175,7 +175,7 @@ h3 {
   .follo {padding: 10px 2px;}
   .about {
      display: grid; grid-template-columns: 25% 75%;
-    font-size: small;
+    font-size: 10px;
   }
   .experience {
     display: grid;

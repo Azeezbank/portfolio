@@ -164,6 +164,9 @@ h3 {
   .name h4, p {
     font-size: 10px;
   }
+  .name h2 {
+    font-size: 15px;
+  }
   .veiw a {
     font-size: smaller;
   }

@@ -171,7 +171,12 @@ h3 {
   .veiw a {
     font-size: smaller;
   }
-  .veiw {padding: 0 2px;}
+  .veiw {
+    padding: 0 2px;
+  }
+  .follow {
+    padding-top: 10px;
+  }
   .follo a {
     font-size: smaller;
     padding-bottom: 0px;

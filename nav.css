@@ -56,7 +56,7 @@ main {
 .follow {
   display: flex;
   height: 35px;
-  margin-top: 30px;
+  margin-top: 40px;
   font-size: smaller;
   font-weight: bold;
   text-align: center;
@@ -180,6 +180,7 @@ h3 {
   .veiw {
     padding: 0 2px;
   }
+  .follow {margin-top: -10px}
   .follo a {
     font-size: smaller;
     padding-bottom: 0px;

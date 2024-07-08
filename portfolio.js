@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
   function changeImage() {
   rotate.src = images[currentIndex]
   currentIndex = (currentIndex + 1) % images.length;
+    let Agriculture = document.getElementById('Agriculture').appendChild("rotate")
   }
   setInterval(changeImage, 5000);
   changeImage();

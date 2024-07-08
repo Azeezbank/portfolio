@@ -10,6 +10,8 @@ document.addEventListener("DOMContentLoaded", function() {
   let Agriculture = document.getElementById('Agriculture')
   function changeImage() {
     Agriculture.src = images[currentIndex]
+    Agriculture.alt = "image";
+    Agriculture.width = 100%;
   currentIndex = (currentIndex + 1) % images.length;
   }
   setInterval(changeImage, 5000);

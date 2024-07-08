@@ -6,7 +6,6 @@ alert("Sorry, you cant copy from this site, contact the developr!")})
                "url('https://tunstelecom.com.ng/wp-content/uploads/2024/06/images-7.jpeg')",
                "url('https://tunstelecom.com.ng/wp-content/uploads/2024/06/images-2.jpeg')"];
   let currentIndex = 0;
-  let Agriculture = document.getElementById('Agriculture');
 let rotate = document.createElement('img')
   function changeImage() {
     rotate.src = images[currentIndex]

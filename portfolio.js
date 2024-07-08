@@ -9,8 +9,9 @@ document.addEventListener("DOMContentLoaded", function() {
   let currentIndex = 0;
   let Agriculture = document.getElementById('Agriculture')
   function changeImage() {
-  currentIndex = (currentIndex + 1) % images.length;
     Agriculture.src = images[currentIndex]
+  currentIndex = (currentIndex + 1) % images.length;
   }
   setInterval(changeImage, 5000);
+  changeImage();
 });

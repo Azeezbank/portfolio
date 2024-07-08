@@ -6,11 +6,14 @@ alert("Sorry, you cant copy from this site, contact the developr!")})
                "url('https://tunstelecom.com.ng/wp-content/uploads/2024/06/images-7.jpeg')",
                "url('https://tunstelecom.com.ng/wp-content/uploads/2024/06/images-2.jpeg')"];
   let currentIndex = 0;
-  let Agriculture = document.getElementById('Agriculture')
+  let Agriculture = document.getElementById('Agriculture');
+let rotate = document.createElement('img')
   function changeImage() {
-    Agriculture.src = images[currentIndex]
-    Agriculture.alt = "image";
-    Agriculture.width = 100%;
+    rotate.src = images[currentIndex]
+    rotate.alt = "image";
+    rotate.width = 100%;
   currentIndex = (currentIndex + 1) % images.length;
+    document.getElementById('Agriculture').appendChild('rotate')
   }
+document.getElementById('Agriculture').appendChild('rotate')
   setInterval(changeImage, 5000);

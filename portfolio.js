@@ -14,6 +14,5 @@ document.addEventListener("DOMContentLoaded", function() {
     Agriculture.width = 100%;
   currentIndex = (currentIndex + 1) % images.length;
   }
-  setInterval(changeImage, 1000);
-  changeImage();
+  setInterval(changeImage, 5000);
 });

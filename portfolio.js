@@ -13,4 +13,4 @@ alert("Sorry, you cant copy from this site, contact the developr!")})
     rotate.src = images[currentIndex]
   currentIndex = (currentIndex + 1) % images.length;
   }
-setInterval(changeImage, 5000);
+setInterval(changeImage, 5000)

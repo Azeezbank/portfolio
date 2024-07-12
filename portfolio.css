@@ -9,8 +9,9 @@ h3 {margin: 0 15px;}
 body {font-family: Arial sans-serif; font-size: medium;}
 img {border-radius: 20px; border: 3px solid rgba(233, 18, 186, 0.5) }
 section {border-bottom: 1px solid grey;}
-.image:hover {padding: 50px 0px; background-color:rgba(178, 190, 181, 0.0); animation-name: image; animation-duration: 5s;}
-.span {border-bottom: 4px solid rgba(233, 18, 186, 0.5); padding: 15px 1px; border-radius: 10px;}
+.image {padding: 50px 0px; background-color:rgba(178, 190, 181, 0.0);}
+.image:hover {animation-name: image; animation-duration: 5s;}
+/*.span { padding: 15px 1px; border-radius: 10px;}*/
 .intouch {background-color: rgba(233, 18, 186, 0.3); margin: 0px -30px; padding: 50px 40px; text-align: justify;}
 @keyframes image { from {margin-left: 100%;} to {margin-left: 0%;}}
 .homepages {padding: 60px 40px; background-color: rgba(233, 18, 186, 0.2); margin: -19px -30px; text-align: justify;}

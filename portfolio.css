@@ -2,7 +2,7 @@
 marquee {color:#ffffff}
 nav {background-color: rgba(233, 18, 186, 0.2); margin-left: -5px; margin-right: -17px}
 .me {margin-top: -18px; padding: 7px; border-bottom: 1px solid grey;}
-main { text-align:center;}
+main { text-align:center; margin: 0 10px}
 h3 {margin: 0 15px;}
 .homepage {padding: 60px 40px; background-color: rgba(233, 18, 186, 0.2); margin: -9px -30px;}
 .mission {background-color: rgba(233, 18, 186, 0.2); padding: 50px 45px;}
